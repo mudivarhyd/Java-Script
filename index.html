@@ -35,16 +35,20 @@
                 <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
-                      <li class="filter list-group-item">
+                      <li class="filter list-group-item" style="background-color: black;">
                           <!-- Date input -->
-
                         <label for="date">Enter a Date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2010">
                       </li>
                       <li class="filter list-group-item" style="background-color: black;">
                           <!-- City input-->
-                          <label for="date"> Enter a City</label>
+                          <label for="city"> Enter a City</label>
                           <input class="form-control" id="city" type="text" placeholder="park city" >
+                      </li>
+                      <li class="filter list-group-item" style="background-color: black;">
+                       <!-- State input-->
+                       <label for="state"> Enter a State</label>
+                       <input class="form-control" id="state" type="text" placeholder="ky" >
                       </li>
 
 
@@ -52,7 +56,7 @@
                   </div>
                   <button id="filter-btn" type="submit" class="btn btn-default btn-lg btn-block">Filter Table</button>
 
-                   <button id="reset-btn" type="reset" class="btn btn-default btn-lg btn-block">Fill Table</button>
+                   <button id="reset-tbl-btn" type="reset" class="btn btn-default btn-lg btn-block">Reset Table</button>
                 </form>
               </div>
             </div>
